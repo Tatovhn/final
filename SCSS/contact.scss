@@ -1,0 +1,23 @@
+.socMediaCont{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    vertical-align: middle;
+}
+.socMediaCont-Mob{display: none;}
+
+.contenedorMapa{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+@media (max-width: 576px){
+    .opiniones{
+        display: none;
+    }
+  
+   
+}

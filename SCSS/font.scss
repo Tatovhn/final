@@ -1,0 +1,64 @@
+$colors:(font:#fbfff1,hover:yellow,mobile:#dbd5b5,extension:#c69dd2,hache1:#e7b917);
+
+
+*{
+
+    
+    color:map-get($colors, font );
+    .logo{
+        background-color:#e7b917;
+        border-radius:8px;
+        font-weight:700;
+        
+    }
+}
+// navbar
+.textoto{
+    a{text-decoration: none;
+    color:map-get($colors,font);
+    margin-top:1%;
+    margin-bottom: 1%;}
+}
+
+// titulo
+.disenio{
+    margin-top: 30px;
+    color:map-get($colors,hache1);
+}
+h1{
+    color:map-get($colors,hache1);
+}
+h4{
+    color:map-get($colors,hache1);
+}
+.aplicacionesTitulo{
+    @extend .textoto;
+    color: map-get($colors ,extension );
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+ 
+
+
+
+
+@media (max-width: 576px){
+   
+.textoto{
+    a{text-decoration: none;
+    color:map-get($colors,mobile);
+    margin-top:1%;
+    margin-bottom: 1%;}
+}
+
+}
+
+.Manifesto-web p{color:map-get($colors,hache1);}
+.Manifesto-mob p{color:map-get($colors,hache1);}
+.footer-web p{color:map-get($colors,hache1);}
+.footer p{color:map-get($colors,hache1);;}
+fieldset{color:map-get($colors,hache1);}
+legend{color:map-get($colors,hache1);}
+.footer-index-redes-web{color:map-get($colors,hache1);}
+.footer-index-text p{color:map-get($colors,hache1);
+.Opiniones p{color:map-get($colors,font)}
+}

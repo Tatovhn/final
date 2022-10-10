@@ -1,0 +1,24 @@
+// layout index web
+.medioIndex {p{display: inline; width: 40%;vertical-align: middle;text-align: center;}}
+.imgIndex {
+justify-content: center;
+margin-top: 40px;margin-bottom: 40px;   
+}
+
+.mob-text{
+    display: none;
+}
+//mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile mobile 
+
+@media (max-width: 576px){
+legend{display:none;} .webVista{display:none;} .medioIndex-b{display:none;}.logos-redes{border-radius:100px;} .container-index-footer{display:none;}.imgIndex{display:none;}.medioIndex{display:none;}
+.appVista{    width: 80%;
+   float: center;
+} 
+.mob-text{
+    display: inline;
+    text-align: center;
+}
+}
+
+

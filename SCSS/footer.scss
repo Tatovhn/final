@@ -1,0 +1,118 @@
+/* MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE   MOBILE  */
+@media (max-width: 576px) {
+    // SE OCULTA EL FOOTER VERSION WEB
+    // .index-footer-web {display: none; }
+    // .index-footer-web-a {display: none; }
+    .footer-redes-web {display: none; }
+    .medioIndexApp{display:none;}
+    .footer-index-redes-web-b{display:none;}
+    .footer-redes-app {margin-bottom: 25px; }
+    
+        .footer-web{display:none;}
+        .footer{
+            float:inline;
+            height: 80px;
+            margin-top: 20px;
+        }
+        fieldset{
+            border:none;
+        }
+        legend{text-align: center;}
+        
+        .footer-redes{
+            display: flex;
+            justify-content: space-evenly;
+         }
+        .logos-redes{
+            transition:all 0.3 ease;
+            height:50px;
+            width:50px;
+            border-radius: 80px;
+        }
+        .logos-redes:hover{
+            transition:all 0.3 ease;
+        transform: scale(1.1,1.1);
+        }
+
+        
+        .footer-text-mobile {
+            display: inline;
+            width:75%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+}
+
+
+
+// WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB WEB
+
+@media (min-width: 576px){
+
+.appVista{display:none;} 
+.medioApp{display:none;} 
+ 
+
+footer{
+    display:none;
+}
+.footer{
+    float:inline;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    display: inline-block;
+    width:75%;
+
+}
+
+.footer-redes-web{
+    display: inline;
+    width: 25%;
+    float:right;
+    height:100%;
+ }
+.logos-redes{
+    margin-left:5px;    
+    margin-right:5px;    
+    height:50px;
+    width:50px;
+    border-radius: 80px;
+}.logos-redes:hover{
+    transition:all 0.3 ease;
+transform: scale(1.1,1.1);
+}
+
+
+.container-index-footer{
+    display:inline-block;
+}
+
+.footer-index-redes-web{
+    display: inline;
+    width: 75%;
+    float:left;
+    height:100%;
+ }
+ .footer-index-redes-web-b{
+    display: inline;
+    width: 25%;
+    float:right;
+    height:100%;
+ }
+.logos-index-redes{
+    margin-left:5px;  
+    margin-top:20px;  
+    margin-right:5px;    
+    height:50px;
+    width:50px;
+    border-radius: 80px;
+}.logos-index-redes:hover{
+    transition:all 0.3 ease;
+transform: scale(1.1,1.1);
+}
+
+}

@@ -1,0 +1,65 @@
+// sitio websites version mobile
+@media (max-width: 576px){.galeriaweb-web{display: none;}.imgWP{display:none;}
+    
+.galeriaweb-mob{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 30px;  
+  grid-column-gap:30px;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+.galeriaweb-item-mob{
+ margin:auto;
+}
+.imgWP-Mob{
+  height:200 px;width:200px ; 
+  transition: all 0.2s ease;
+  opacity: 1;}
+
+.imgWP-Mob:hover{
+transform: scaleX(-1);
+opacity:0.5;    
+transition: all 0.4s ease;
+}
+      
+}
+
+//web web web web web web  web web web web web web web web  web web web web web web web web  web web web web web web web web  web web
+
+
+@media (min-width:576px){
+    // .container-webProject{
+    //     display: grid;
+    //     grid-template-rows:1fr 1 fr 3fr  1fr  1 fr;
+    //     grid-row-gap: 30px;  
+    //   }
+    .galeriaweb-mob{display:none}
+    
+      .galeriaweb-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 30px;  
+       grid-column-gap:30px;
+       margin-top:2%;
+       margin-bottom:2%;
+      }
+    
+    .galeriaweb-item{
+     margin:auto;
+    }
+.imgWP{
+height:200 px;width:200px ; 
+transition: all 0.2s ease;
+opacity: 1;}
+// .imgWP:hover{
+// transform: scaleX(-1);
+// opacity:0.5;    
+// transition: all 0.4s ease;}
+// }
+    
+      
+     
+}
